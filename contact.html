@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <style>
+  /* Page background */
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5efe9; /* light coffee shade */
+  font-family: 'Segoe UI', sans-serif;
+}
+    /* Main contact box */
+.contact-container {
+  background: #ffffff;
+  width: 420px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Headings */
+.contact-container h1 {
+  margin-bottom: 5px;
+  color: #4b2e2e;
+}
+
+.subtitle {
+  color: #7a5c5c;
+  margin-bottom: 20px;
+}
+
+/* Contact details */
+.contact-info p {
+  margin: 8px 0;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Form section */
+.contact-form h2 {
+  margin: 20px 0 15px;
+  color: #4b2e2e;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Button */
+.contact-form button {
+  width: 100%;
+  padding: 10px;
+  background: #6f4e37;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #5a3d2b;
+}
+
+/* Social links */
+.social {
+  margin-top: 20px;
+}
+
+.social p {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.social span {
+  display: inline-block;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.back-home-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 22px;
+  background: #6f4e37;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.back-home-btn:hover {
+  background: #5a3d2b;
+}
+
+
+  </style>
+</head>
+<body>
+
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p class="subtitle">We are love to hear from you ☕</p>
+
+    <div class="contact-info">
+      <p><strong>📍 Address:</strong> 123 Brew Street, Downtown</p>
+      <p><strong>⏰ Hours:</strong> Open Daily — 9:00 AM to 10:00 PM</p>
+      <p><strong>📞 Phone:</strong> +91 98765 43210</p>
+      <p><strong>📧 Email:</strong> hello@velvetbrew.com</p>
+    </div>
+
+    <form class="contact-form">
+      <h2>Send Us a Message</h2>
+
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+      
+      
+    </form>
+
+    <div class="social">
+      <p>Follow Us</p>
+      <span>📸 Instagram</span>
+      <span>📘 Facebook</span>
+      <span>🐦 Twitter</span>
+    </div>
+
+    <a href="index.html" class="back-home-btn">← Back to Home</a>
+  </div>
+</body>
+</html>
